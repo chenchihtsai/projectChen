@@ -1,0 +1,23 @@
+[
+    {
+       "id":"1",
+       "nombre":"Vegetales"
+    },
+    {
+       "id":"2",
+       "nombre":"Carniceria"
+    },
+    {
+       "id":"3",
+       "nombre":"Pescaderia"
+    },
+    {
+       "id":"4",
+       "nombre":"Harina"
+    },
+    {
+       "id":"5",
+       "nombre":"Azúcar"
+    }
+
+ ]
