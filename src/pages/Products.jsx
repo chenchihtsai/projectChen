@@ -1,6 +1,7 @@
 import React, { useState, useLayoutEffect } from "react";
 import { useHistory } from "react-router-dom";
-//hooks
+import "../style/products.css"
+
 const Products = () => {
   const history = useHistory();
   const [pr, setPr] = useState([]);
@@ -22,7 +23,7 @@ const Products = () => {
   return (
     <div className="craeate">
       <button
-        className="button"
+        className="buttonAdd"
         onClick={(e) => {
           click();
         }}
@@ -32,8 +33,9 @@ const Products = () => {
       <ul>
         {pr.map((el, i) => (
           <div>
-            <li key={`productsArray${i}`}>{el.name}</li>
-            <button onClick={() => clickDelete(el.id)}>Delete</button>
+            <li className="listProduts" key={`productsArray${i}`}>{el.name}
+            <button className="buttonDelete" onClick={() => clickDelete(el.id)}>Delete</button>
+            </li>
           </div>
         ))}
       </ul>

@@ -53,7 +53,7 @@ function Sidebar(props, { defaultActive }) {
 export default Sidebar;
 
 const SidebarParent = styled.div`
-  background: #cf3d2a;
+  background: #ff8000;
 
   a {
     text-decoration: none;

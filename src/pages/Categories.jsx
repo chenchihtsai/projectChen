@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import Lista from './Lista.json'
+import "../style/categories.css"
 
 
 const Categories = () => {
@@ -9,7 +10,7 @@ const Categories = () => {
     <>
       <ul>
         {Lista.map((el, i) => (
-          <li key={`lista${i}`}>
+          <li key={`lista${i}`} className='textCategory'>
             {el.nombre}
           </li>
         ))}

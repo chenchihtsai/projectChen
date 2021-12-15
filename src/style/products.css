@@ -1,0 +1,35 @@
+.buttonAdd {
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    background: #ffd200;
+    color: #000;
+    font-weight: bold;
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    left: calc(90%);
+    padding: 10px 30px;
+}
+
+.buttonDelete {
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    background: #ffd200;
+    color: #000;
+    font-weight: bold;
+    text-align: center;
+    margin: auto;
+    padding: 10px 30px;
+    left: 20px;
+}
+
+.listProduts{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    list-style: none;
+}

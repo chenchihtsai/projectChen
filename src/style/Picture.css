@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background: url(../img/fondo.jpg) no-repeat center top;
+    background: greenyellow;
     background-size: cover;
     font-family: 'Quicksand', sans-serif;
     height: 100vh;
@@ -21,15 +21,6 @@ body {
     border-radius: 5%;
 }
 
-.login-box .logoimg {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    position: absolute;
-    top: -50px;
-    left: calc(50% - 50px);
-}
-
 .login-box h1 {
     margin: 0;
     padding: 0 0 20px;
@@ -42,11 +33,6 @@ body {
     padding: 0;
     font-weight: bold;
     display: block;
-}
-
-.form {
-    display: flex;
-    flex-direction: column;
 }
 
 .login-box input {
@@ -64,24 +50,16 @@ body {
     font-size: 16px;
 }
 
-.login-bottom {
+.button {
     border-radius: 20px;
     border: none;
     cursor: pointer;
     background: #ffd200;
     color: #000;
     font-weight: bold;
-    height: 30px;
-}
-
-.login-box form a {
     text-align: center;
-    text-decoration: none;
-    font-size: 12px;
-    line-height: 20px;
-    color: #595d64;
-}
-
-.login-box a:hover {
-    color: #fff;
+    margin: auto;
+    position: absolute;
+    left: calc(50% - 50px);
+    padding: 10px 30px;
 }
